@@ -1,9 +1,9 @@
-#include <CUnit/Basic.h>
+
 #include <stdio.h>
 #include <string.h>
-
+#include <CUnit/CUnit.h>
 #include "revert_string.h"
-
+#include <CUnit/Basic.h>
 void testRevertString(void) {
   char simple_string[] = "Hello";
   char str_with_spaces[] = "String with spaces";
